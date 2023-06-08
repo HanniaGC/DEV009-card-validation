@@ -6,7 +6,7 @@ const validator = {
   },
 
   isValid: function (creditCardNumber) {
-    const trimmedNumber = creditCardNumber.replace(/\s/g, "");
+    const trimmedNumber = creditCardNumber.replace(/\s|-/g, "");
 
     let sum = 0;
     let isSecondDigit = false;
