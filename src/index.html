@@ -6,9 +6,29 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <div id="contenido">
+      <header>¿A dónde van? <address></address></header>
+      <main>
+        <p>"En México existen más de 100 colectivos que buscan a sus desaparecidos... hay más de 112,000 personas desaparecidas y no localizadas desde 1964, que es el primer registro que se tiene..."</p>
+        <p>“Miles de personas que aunque no buscan, fueron tocadas y afectadas”</p>
+        <p>"Nosotras las familias, tenemos seis principios que guían la búsqueda de nuestros seres queridos y la lucha por un país sin más desapariciones..."</p>
+        <p>Con tu donación puedes ayudar a estos colectivos a seguir con su causa, un acto de solidaridad puede cambiar el rumbo y apoyar a aquellos que buscan cambiar la situación de nuestro país.</p>
+        <input type="button" id="Donar" onclick="mostrarSeccionDonar()" value="Quiero Donar"/>
+      </main>
+    </div>
+    <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROZTg3t2yOiYBFHDXBAdOmxHRw7noRDeH_Yg&usqp=CAU">
+    <div id="secciondonar" style="display: none;">
+      <h2>Ingresa tu número de tarjeta</h2>
+      <form onsubmit="return validateCard()">
+        <label for="numero_tarjeta">Número de tarjeta:</label>
+        <input type="text" id="numero_tarjeta" name="numero_tarjeta">
+        <br>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
     <footer></footer>
+    <script src="validator.js" type="module"></script>
     <script src="index.js" type="module"></script>
   </body>
 </html>
