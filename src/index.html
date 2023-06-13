@@ -13,19 +13,20 @@
         <p>“Miles de personas que aunque no buscan, fueron tocadas y afectadas”</p>
         <p>"Nosotras las familias, tenemos seis principios que guían la búsqueda de nuestros seres queridos y la lucha por un país sin más desapariciones..."</p>
         <p>Con tu donación puedes ayudar a estos colectivos a seguir con su causa, un acto de solidaridad puede cambiar el rumbo y apoyar a aquellos que buscan cambiar la situación de nuestro país.</p>
-        <input type="button" id="Donar" onclick="mostrarSeccionDonar()" value="Quiero Donar"/>
+        <input type="button" id="Donar"  value="Quiero Donar"/>
+        
       </main>
     </div>
     <br>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROZTg3t2yOiYBFHDXBAdOmxHRw7noRDeH_Yg&usqp=CAU">
     <div id="secciondonar" style="display: none;">
-      <h2>Ingresa tu número de tarjeta</h2>
-      <form onsubmit="return validateCard()">
+      <h2>Porfavor Ingresa tu número de tarjeta</h2>
+      <form>
         <label for="numero_tarjeta">Número de tarjeta:</label>
         <input type="text" id="numero_tarjeta" name="numero_tarjeta">
         <br>
-        <input type="submit" value="Enviar">
+        <input type="submit" id="submitButton" value="Enviar">
       </form>
+      <p class="mensaje"></p>
     </div>
     <footer></footer>
     <script src="validator.js" type="module"></script>

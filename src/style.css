@@ -5,10 +5,13 @@ html {
 
   header{
     text-align: center;
+    color: #c9c4c0;
+    font-size: 45px;
   }
 
   p{
     text-align: center;
+    color: #c9c4c0;
   }
 
    #Donar { 
@@ -17,11 +20,19 @@ html {
   }
 
   body {
-    background-color: #a15bda  ;
-  
+    background-image: url('https://wallpaperstock.net/wallpapers/thumbs1/15063wide.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
   }
   
   #secciondonar {
     text-align: right;
+  }
+
+  h2 {
+    font-size: 45px;
+    text-align: center;
+    color: #462205;
   }
   

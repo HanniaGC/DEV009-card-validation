@@ -1,28 +1,40 @@
 import validator from './validator.js';
 
-function validateCard(event) {
-  event.preventDefault(); 
 
-  const numeroTarjeta = document.querySelector('input[name="numero_tarjeta"]').value;
 
-  const maskedNumber = validator.maskify(numeroTarjeta);
-  console.log(maskedNumber);
+document.getElementById("secciondonar").style.display = "none";
 
-  const isValid = validator.isValid(numeroTarjeta);
-  console.log(isValid);
+const button = document.getElementById("Donar");
+const element = document.getElementById("secciondonar");
 
-}
-
-function mostrarSeccionDonar() {
-  const donarSection = document.getElementById("secciondonar");
-  donarSection.style.display = "block";
-
-  const contenidoSection = document.getElementById("contenido");
-  contenidoSection.style.display = "none";
-}
-
-const contenidoSection = document.getElementById("contenido");
-contenidoSection.addEventListener("click", mostrarSeccionDonar);
+button.addEventListener("click", function () {
+  if (element.style.display === "none") {
+    element.style.display = "block";
+    document.getElementById("contenido").style.display = "none";
+  } else {
+    element.style.display = "none";
+  }
+});
 
 const form = document.querySelector('form');
-form.addEventListener('submit', validateCard);
+form.addEventListener('submit',function (event) {
+  event.preventDefault();
+
+  const tarjeta = document.querySelector('input[name="numero_tarjeta"]');
+
+  const numeroTarjeta = tarjeta.value;
+
+  const maskedNumber = validator.maskify(numeroTarjeta);
+
+  const isValid = validator.isValid(numeroTarjeta);
+
+      if (maskedNumber && isValid) {
+        tarjeta.value = maskedNumber
+        document.querySelector(".mensaje").innerHTML='¡Muchas gracias por tu donación!';
+      } else {
+        document.querySelector(".mensaje").innerHTML='Error en la donación. Por favor, verifica tu número de tarjeta.';
+      }
+
+});
+
+
