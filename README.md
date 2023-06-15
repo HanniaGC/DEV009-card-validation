@@ -3,14 +3,11 @@
 ## Índice
 
 * [1. Introduccion](#1-Introduccion)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Consideraciones generales](#3-consideraciones-generales)
-* [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Hito Opcional: Mostrar la franquicia de tarjeta](#5-hito-opcional-mostrar-la-franquicia-de-tarjeta)
-* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)
+* [2. Usuarios Principales del Producto](#2-usuarios-principales-del-producto)
+* [3. Objetivos de los Usuarios](#3-objetivos-de-los-usuarios)
+* [4. Solución Proporcionada por el Producto](#4-solucion-proporcionada-por-el-producto)
+* [5. Descripción de la Funcionalidad y Decisiones de Diseño](#5-descripción-de-la-funcionalidad-y-decisiones-de-diseño)
+* [6. Mi Experiencia en Este Proyecto](#6-mi-experiencia-en-este-proyecto)
 
 ***
 
@@ -28,7 +25,7 @@ Los principales usuarios de este producto son:
 * Familiares y amigos de personas desaparecidas que buscan apoyo para continuar con las labores de búsqueda.
 * Ciudadanos comprometidos con la causa de las desapariciones en México.
 
-### Objetivos de los Usuarios
+### 3. Objetivos de los Usuarios
 
 Los usuarios de esta página tienen los siguientes objetivos en relación con el producto:
 
@@ -36,7 +33,7 @@ Los usuarios de esta página tienen los siguientes objetivos en relación con el
 * Generar conciencia sobre el problema de las desapariciones en México.
 * Unirse a la lucha contra las desapariciones y mostrar solidaridad hacia las familias afectadas.
 
-## 3. Solución Proporcionada por el Producto
+## 4. Solución Proporcionada por el Producto
 
 El producto que estamos creando resuelve los problemas de los usuarios de la siguiente manera:
 
@@ -47,7 +44,7 @@ El producto que estamos creando resuelve los problemas de los usuarios de la sig
 
 Con este producto, esperamos lograr una mayor participación y apoyo de la sociedad en la búsqueda de personas desaparecidas en México, fomentando la solidaridad y la conciencia colectiva sobre este grave problema.
 
-## 4. Descripción de la Funcionalidad y Decisiones de Diseño
+## 5. Descripción de la Funcionalidad y Decisiones de Diseño
 
 La funcionalidad principal del producto es permitir a los usuarios realizar donaciones de forma segura y sencilla, contribuyendo así a los colectivos de búsqueda de personas desaparecidas. La página cuenta con un formulario donde los usuarios pueden ingresar su número de tarjeta y la cantidad a donar.
 
@@ -57,7 +54,7 @@ Se ha buscado mantener un diseño sencillo y minimalista para facilitar la naveg
 
 ![Vista de Pagina](Pagina.png) ![vista de la pagina](Pagina2.png)
 
-## Mi Experiencia en Este Proyecto
+## 6. Mi Experiencia en Este Proyecto
 
 Durante el desarrollo de este proyecto, me enfoqué en encontrar un tema de interés general que tuviera una causa significativa. Elegir la problemática de las desapariciones en México me permitió involucrarme en un tema sensible y de importancia social.
 
