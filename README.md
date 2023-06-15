@@ -15,7 +15,7 @@
 
 Esta es una página diseñada para donar a colectivos de personas que buscan a individuos desaparecidos en México. El objetivo de esta página es crear conciencia y unirnos en la lucha contra las desapariciones en el país, permitiendo a los usuarios realizar donaciones mediante el ingreso de su número de tarjeta y la cantidad a donar.
 
-![presentacion de la Pagina](fondo.jpg)
+![presentacion de la Pagina](src/Imagenes/fondo.jpg)
 
 ## 2. Usuarios Principales del Producto
 
@@ -52,7 +52,7 @@ En cuanto al diseño, se ha utilizado una paleta de colores sobrios y serios par
 
 Se ha buscado mantener un diseño sencillo y minimalista para facilitar la navegación y la comprensión de la página. La información se presenta de manera clara y concisa, con el objetivo de generar conciencia y motivar a los usuarios a realizar donaciones.
 
-![Vista de Pagina](Pagina.png) ![vista de la pagina](Pagina2.png)
+![Vista de Pagina](src/Imagenes/Pagina.png) ![vista de la pagina](src/Imagenes/Pagina2.png)
 
 ## 6. Mi Experiencia en Este Proyecto
 
@@ -62,5 +62,5 @@ Para implementar la funcionalidad de validación de tarjetas, utilicé diferente
 
 Además, utilicé Figma para diseñar un prototipo de alta fidelidad. Con esta herramienta, pude visualizar y representar de manera precisa la interfaz de la página de donación. Me aseguré de mantener un diseño serio, sencillo y seguro, transmitiendo respeto hacia el tema y generando confianza en el usuario.
 
-![Prototipo en figma](PrototipoAlta.png)
+![Prototipo en figma](src/Imagenes/PrototipoAlta.png)
 
