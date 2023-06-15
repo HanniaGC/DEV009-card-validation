@@ -3,27 +3,91 @@ html {
     width: 100%;
   }
 
+  body{
+    background-color: #bebaba;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+  .barra{
+    padding: 0;
+    background: #555;
+    width: 100%;
+  }
+  .logo {
+    top: 2.5px;
+    bottom: 30;
+    margin-left: 0;
+    height: 160px;
+    width: auto;
+  }
+  #contenido {
+    margin: 0 auto;
+  }
+
   header{
+    margin-top: 50px;
     text-align: center;
-    color: #c9c4c0;
-    font-size: 45px;
+    color:#381506;
+    font-size: 60px;
+    font-family: fantasy;
   }
 
   p{
-    text-align: center;
-    color: #c9c4c0;
+    margin-bottom: 20px;
+}
+
+  .p1{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 150px;
+    color:#8b5d17;
+    text-shadow: -1px 1px 0px rgba(0,0,0,0.6);
+    font-size: 25px;
+    font-weight:800;
+  
+  }
+  .p2 {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 200px;
+    font-size: 25px;
+    font-weight:800;
+    color:#080700;
+    text-shadow: -1px 1px 0px rgb(0, 0, 0);
+  }
+  .p3{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 250px;
+    font-size: 25px;
+    font-weight:800;
+    color: #694370;
+    text-shadow: -1px 1px 0px rgba(0,0,0,0.6);
+
+  }
+  .p4{
+    margin-left: 1050px;
+    margin-top: 150px;
+    font-size: 25px;
+    font-weight:800;
+    font-family: 'Open Sans', sans-serif;
+    color:#000000;
+    max-width: 600px;
+    text-shadow: -1px 1px 0px rgba(0, 0, 0, 0.6);
   }
 
    #Donar { 
-    text-align: right;
-  
-  }
-
-  body {
-    background-image: url('https://wallpaperstock.net/wallpapers/thumbs1/15063wide.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-
+    width: 305px;	
+    height: 64px;	
+    background-color: #ce6706;	
+    position: relative;
+    top: -500px;
+    left: 20%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: fantasy;
   }
   
   #secciondonar {
@@ -31,8 +95,49 @@ html {
   }
 
   h2 {
-    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
     text-align: center;
-    color: #462205;
+    color:#202020;
+    margin-top: 20px;
+    text-shadow: -1px 1px 0px rgb(7, 7, 7);
   }
   
+  form {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight:500;
+    background-color: #0e0e0e;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+  
+  }
+  .mensaje {
+    text-align: center;
+    font-size: 40px;
+    color:#6d1e1e;
+    text-shadow: -1px 1px 0px rgb(243, 247, 247);
+  
+  }
+
+  img {
+    position: relative;
+    left: 30px; 
+    top: -300px; 
+    width: 900px; 
+    height: auto; 
+
+  }
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
