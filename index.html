@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="barra">
+      <img class="logo" src="logo.jpeg">
+    </nav> 
+  </nav>
+    <div id="contenido">
+      <header>¿A dónde van?</header>
+      <main>
+        <p class="p1">"En México existen más de 100 colectivos que buscan a sus desaparecidos... hay más de 112,000 personas desaparecidas y no localizadas desde 1964, que es el primer registro que se tiene..."</p>
+        <p class="p2">“Miles de personas que aunque no buscan, fueron tocadas y afectadas”</p>
+        <p class="p3">"Nosotras las familias, tenemos seis principios que guían la búsqueda de nuestros seres queridos y la lucha por un país sin más desapariciones..."</p>
+        <p class="p4">Con tu donación puedes ayudar a estos colectivos a seguir con su causa, un acto de solidaridad puede cambiar el rumbo y apoyar a aquellos que buscan cambiar la situación de nuestro país.</p>
+       <img src="https://i0.wp.com/labrecha.me/wp-content/uploads/2021/07/Desaparecidos-e1626703742737.png?resize=853%2C527&ssl=1">
+        <input type="button" id="Donar"  value="Quiero Donar"/>
+      </main>
+    </div>
+    <br>
+    <div id="secciondonar" style="display: none;">
+      <h2>Porfavor Ingresa tu número de tarjeta <br> Tu donacion sera anonima</h2>
+      <form>
+        <label for="numero_tarjeta">Número de tarjeta:</label>
+        <input type="text" id="numero_tarjeta" name="numero_tarjeta">
+        <br>
+        <label for="laCantidad">Cantidad a Donar:</label>
+        <input type="text" id="cantidad" name="cantidad">
+        <br>
+       <input type="submit" id="submitButton" value="Enviar">
+      </form>
+      <p class="mensaje"></p>
+    </div>
+    <footer></footer>
+    <script src="validator.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
